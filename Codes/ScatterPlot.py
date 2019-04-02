@@ -5,7 +5,7 @@ from sklearn import datasets, linear model
 import pandas
 
 colnames = ['price', 'score_rank']
-data = pandas.read_csv ("C:\\Users\\..\\spybot_new_new .csv")
+data = pandas.read_csv ("C:\\Users\\..\\spybot_splot .csv")
 
 X	= data.score_rank.tolist()
 Y =	data.price.tolist()
