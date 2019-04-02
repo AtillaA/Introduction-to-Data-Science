@@ -11,7 +11,7 @@ def func(x):
     return x
 
 elf = tree .DecisionTreeClassi fier()
-with open ("C:\\Users\\ATILLA\\Desktop\\CS210\\spybot_dtree .csv") as f:
+with open ("C:\\Users\\ATILLA\\Desktop\\CS210\\spybot_dtree.csv") as f:
   table_data = [[func(x) for x in line.split()] for line in f]
 
 data = pd .read_csv("C:\\Users\\..\\spybot_edited.csv")
