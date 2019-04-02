@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv ('C:\\Users\\..\\vgsales-edited. csv')
+df = pd.read_csv ('C:\\Users\\..\\vgsales_edited. csv')
 
 sns.set_palette ('deep' , desat = .6)
 sns.set context (rc = {"figure.figsize": (8,4)})
