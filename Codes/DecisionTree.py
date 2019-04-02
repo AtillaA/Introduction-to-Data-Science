@@ -17,7 +17,7 @@ clf = tree.DecisionTreeClassifier()
 with open ("C:\\Users\\..\\DTreeData.csv") as f:
   table_data = [[func(x) for x in line.split()] for line in f]
 
-data = pd.read_csv("C:\\Users\\..\\DTreeData2.csv")
+data = pd.read_csv("C:\\Users\\..\\DTreeData.csv")
 Y = data.price.tolist()
 #inputs: score rank,owners
 #output: price
